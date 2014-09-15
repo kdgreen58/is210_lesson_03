@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 '''Task 03. Paint choices.'''
 
-COLOR = raw_input('Which base color, Seattle Gray or Manatee? ')
+BASE = raw_input('Which base color, Seattle Gray or Manatee? ')
 
-if COLOR == 'Seattle Gray':
+if BASE == 'Seattle Gray':
     ACCENT = raw_input('''Which accent color, Ceramic Glaze or
     Cumulus Nimbus? ''')
     if ACCENT == 'Ceramic Glaze':
@@ -13,7 +13,7 @@ if COLOR == 'Seattle Gray':
     elif ACCENT == 'Cumulus Nimbus':
         HIGHLIGHT = raw_input('''Which highlight color, Off-White or
         Paper White''')
-elif COLOR == 'Manatee':
+elif BASE == 'Manatee':
     ACCENT = raw_input('''Which accent color, Platinum Mist or
     Spartan Sage? ''')
     if ACCENT == 'Platinum Mist':
@@ -23,5 +23,5 @@ elif COLOR == 'Manatee':
         HIGHLIGHT = raw_input('''Which highlight color, Fractal White or
         Not White''')
 
-print 'Your selected colors are, {0}, {1} and {2}'.format(COLOR, ACCENT,
+print 'Your selected colors are, {0}, {1} and {2}'.format(BASE, ACCENT,
                                                           HIGHLIGHT)
