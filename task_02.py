@@ -15,4 +15,4 @@ elif USERINPUT >= 90 and USERINPUT <= 119:
 else:
     BP_STATUS = 'Low'
 
-print 'Your status is currently: {0}!'.format(BP_STATUS)         
+print 'Your status is currently: {0}!'.format(BP_STATUS)
